@@ -1,0 +1,851 @@
+
+
+=================== FILE: about.php ===================
+
+St Joseph College of Arts and Science
++91 7305088202, +91 7305088205
+stjosephartscollege@gmail.com
+Login
+Register
+Home
+About
+About Us
+Board of Management
+Vision & Mission
+Administration
+Secretary
+Principal
+Governing Body
+Officials & Committees
+Extension Activities
+Organogram
+Academics
+Admission
+Courses
+Teaching Staff
+Administrative Staff
+Teaching Staff
+Courses Pattern
+Academic Calendar
+Physical Education
+Library
+Department
+Tamil
+English
+Mathematics
+Computer Science
+Physics
+Commerce
+Corporate Secretaryship
+IQAC
+Examinations
+Model QP
+MSU COE
+About Us
+Home
+About Us
+About As
+The Roman Catholic diocese of Palayamkottai is rendering service in the field of Education since 1973 Under the Chairmanship of the Bishop of Palayamkottai. St.	Joseph College of Arts and Science was founded by Rt. Rev. A. Jude Paulraj on 13.06.2016 and blessed and inaugurated by Rev. Dr. A. Antony Pappusamuy the Apostolic Administrator of  Palayamkottai Diocese. St Joseph College of Arts and Science established in 2018 with the motto of “To know oneself and To know God” is managed by the R. C. Diocese of Palayamkottai. It is a self-financed Coeducational College of Arts and Science at Vaikalipatti in Tenkasi District affiliated to the Manonmaniam Sundaranar University, Tirunelveli.  It is offering 6 UG Courses. We are proud of our college today it is growing with a noble vision to serve and uplift the poor and the downtrodden in and around the area by giving them quality education.
+Apply Now
+Contact US
+Website
+sjcas.edu.in
+Address
+JNP Nager, Vaikalipatti, Mettur,
+Tenkasi - 627 808
+Reach us
+stjosephartscollege@gmail.com
++91 7305088202, +91 7305088205
+Useful Links
+MSU
+UGG
+NIRF
+SJCE
+Our Gallery
+SJCAS.EDU.IN
+
+=================== FILE: committees.php ===================
+
+St Joseph College of Art and Science
++91 7305088202, +91 7305088205
+stjosephartscollege@gmail.com
+Login
+Register
+Home
+About
+About Us
+Board of Management
+Vision & Mission
+Administration
+Secretary
+Principal
+Governing Body
+Officials & Committees
+Extension Activities
+Organogram
+Academics
+Admission
+Courses
+Teaching Staff
+Administrative Staff
+Teaching Staff
+Courses Pattern
+Academic Calendar
+Physical Education
+Library
+Department
+Tamil
+English
+Mathematics
+Computer Science
+Physics
+Commerce
+Corporate Secretaryship
+IQAC
+Examinations
+Model QP
+MSU COE
+COMMITTEES
+COMMITTEES
+Planning and Monitoring Committee
+Discipline and Welfare Committee
+Anti Ragging Committee
+Complaints Cum Redressal Committee
+Women Redressal Committee
+Sexual Harassment Committee
+Admission Committee
+Examination Committee
+Sports And Games Committee
+Library Committee
+Research Committee
+Fine Arts Committee
+Literary Committee
+Public Relation Committee
+Internal Quality Assurance Cell
+Anti Drug Committee
+Internal Complaints Committee (ICC)
+Communication
+Prayer Service
+College Website
+Planning and Monitoring Committee
+1. Rev. Fr J. Sagaya John
+Secretary
+2. Dr. R. Glory Deva Gnanam
+Principal
+(Coordinator)
+3. Dr. A. Pushpa Santhi
+Vice Principal
+4. Dr. K. Rajab Fathima
+University Representative
+5. Dr. D. Wilson Arul Anandan
+Coordinator – Distance Education, Bharathidasan University
+6. Dr. R. Johnson Chellaiah
+Annai Clinic, Avudayanoor
+7. Mr T. F. Joseph
+Rtd. Headmaster, Dist. Environment Awareness coordinator
+Discipline And Welfare Committee
+1. Rev. Fr J. Sagaya John
+Secretary
+2. Dr. R. Glory Deva Gnanam
+Principal
+3. Dr. A. Pushpa Santhi
+Vice Principal
+(Coordinator)
+4. Mr. Selva Antony
+Advocate
+5. Mr. Sirmoolanathan
+Block Health officer
+6. Mr. A. T. Lijone
+Teaching Staff
+7. Dr T. Manivannan
+Teaching Staff
+8. Dr A. Raja Singh
+Teaching Staff
+9. Dr S. Antony Selva Jenita
+Teaching Staff
+10. Mr R. Sivaraja
+Physical Director
+Anti Ragging Committee
+1. Dr. R. Glory Deva Gnanam
+Principal
+(Coordinator)
+2. Mrs. M. Mary Jemitha
+Inspector of Police, Kadayam
+3. Mr. T. Velrajan
+Village Administrative officer
+4. Mr. M. A. Britto
+Rep. from NGO
+5. Mrs. X. Nimi
+Parent Representative
+6. M. Nobal Raja
+Student Representative
+7. Mrs. S. Durga
+Teaching Staff
+8. Mr. R. Sivaraja
+Physical Director
+9. Mrs. S. Thanga Bruntha
+Non Teaching Staff
+Complaints Cum Redressal Committee
+1. Dr. R. Glory Deva Gnanam
+Principal
+2. Dr. R. Rachel Menaka
+Senior Staff
+(Coordinator)
+3. Mrs. M. Mary Jemitha
+Inspector of Police, Kadayam
+4. Mr. Selva Antony
+Advocate
+5. Dr. J. Arun
+NGO Representative
+Women Redressal Committee
+1. Dr. R. Glory Deva Gnanam
+Principal
+2. Dr. P. Mary Rabaline Claret
+Principal, B.Ed. College
+3. Dr. A. Pushpa Santhi
+Vice Principal
+(Coordinator)
+4. Dr. R. Rachel Menaka
+Senior Staff
+5. Mrs. Croff Immaculate
+Advocate
+Sexual Harassment Committee
+1. Mrs. J. Ramya
+(Coordinator)
+2. Mrs. S. Durga
+Teaching Staff
+3. Dr A. Saratha
+Teaching Staff
+4. Mrs M. Esther
+Teaching Staff
+Admission Committee
+1. Dr R. Glory Deva Gnanam
+Principal
+2. Mr A. T. Lijone
+Coordinator
+3. Dr R. Rachel Menaka
+Teaching Staff
+4. Mr. J. Ajune Samuel Raj
+Teaching Staff
+5. Dr V. Durai Murugan
+Teaching Staff
+6. Mr G. Kuppusamy
+Teaching Staff
+7. Mr. A. Raja Singh
+Teaching Staff
+8. Dr. S. Antony Selva Jenita
+Teaching Staff
+9. Dr. M. Muthumani
+Teaching Staff
+10. Mr. S. Ponkumar
+Teaching Staff
+11. Mr. R. Siva Raja
+Physical Director
+Examination Committee
+1. Dr. R. Glory Deva Gnanam
+Principal
+2. Dr. T. Manivannan
+Coordinator
+3. Dr. R. Rachel Menaka
+Teaching Staff
+4. Mr. J. Ajune Samuel Raj
+Teaching Staff
+5. Dr. V. Durai Murugan
+Teaching Staff
+6. Mr. G. Kuppusamy
+Teaching Staff
+7. Dr. S. Antony Selva Jenita
+Teaching Staff
+8. Mr. A. Sarma
+Teaching Staff
+Sports And Games Committee
+1. Mr R. Siva Raja
+Physical Director
+(Coordinator)
+2. Mr A. T. Lijone
+Teaching Staff
+3. Ms. J. Arockia Selva Punitha
+Teaching Staff
+4. Ms R. Nithya
+Teaching Staff
+5. Dr A. Vaijeyanthi
+Teaching Staff
+6.Mrs S. Reshma
+Teaching Staff
+7. Mrs M. Sujatha
+Non Teaching Staff
+Library Committee
+1. Mr. D. Theepan Packia Raj
+Librarian
+(Coordinator)
+2. Dr. T. Mani Vannan
+Teaching Staff
+3. Mr. A. Francis
+Teaching Staff
+4. Mr. B. Ganesh Kumar
+Teaching Staff
+5. Mrs. V. Asir Pon Sheela
+Teaching Staff
+Research Committee
+1. Mr P. Abubakkar Sithique
+Coordinator
+2. Dr A. Pushpa Shanthi
+Teaching Staff
+3. Dr V. Durai Murugan
+Teaching Staff
+4. Mrs S. Ramya
+Teaching Staff
+Fine Arts Committee
+1. Ms. R. Nithya
+Coordinator (Girls)
+2. Mr. S. Ponkumar
+Coordinator (Boys)
+3. Dr. A. Saratha
+Teaching Staff
+4. Mr. A. Francis
+Teaching Staff
+5. Ms. A. Pushpalatha
+Teaching Staff
+6. Mrs. V. Asir Pon Sheela
+Teaching Staff
+7. Dr. M. Ratna
+Teaching Staff
+Literary Committee
+1. Mrs S. Durga
+Coordinator
+2. Dr G. Joseph Arun Kumar
+Teaching Staff
+3. Ms S. Velankanni
+Teaching Staff
+4. Mr P. Abubakkar Sithique
+Teaching Staff
+5. Mrs M. Sujatha
+Non Teaching Staff
+Public Relation Committee
+1. Dr A. Raja Singh
+Coordinator
+2. Mr R. Sivaraja
+Physical Director
+3. Dr G. Joseph Arun Kumar
+Teaching Staff
+Internal Quality Assurance Cell
+1. Dr P. Abubakkar Sithique
+Coordinator
+2. Mr R. Sundar
+Teaching Staff
+3. Dr A. Raja Singh
+Teaching Staff
+4. Dr A.Vaijeyanthi
+Teaching Staff
+5. Mrs V. Asir Pon Sheela
+Teaching Staff
+6. Dr S. Antony Selva Jenita
+Teaching Staff
+Anti Drug Committee
+1. Dr. R. Glory Deva Gnanam
+Principal
+2. Dr. G. Joseph Arun Kumar
+Coordinator
+3. Mr. B. Ganesh Kumar
+Teaching Staff
+4. Mr. A. Francis
+Teaching Staff
+5. Dr. A. Vaijeyanthi
+Teaching Staff
+6. Mr. R. Siva Raja
+Physical Director
+7. Mr. A. Sarma
+Teaching Staff
+Internal Complaints Committee (ICC)
+1. Dr. R. Glory Deva Gnanam
+Principal
+2. Dr. S. Antony Selva Jenita
+Coordinator
+3. Mr. G. Kuppusamy
+Teaching Staff
+4. Mrs. V. Asir Pon Sheela
+Teaching Staff
+5. Dr. M. Ratna
+Teaching Staff
+Communication
+1. Mr. D. Theepan Packia Raj
+Librarian
+Coordinator
+2. Mr R. Sundar
+Teaching Staff
+Prayer Service
+1. Ms. J. Arockia Selva Punitha
+Coordinator
+2. Ms. S. Velankanni
+Teaching Staff
+3. Mrs M. Sujatha
+Non Teaching Staff
+College Website
+1. Mrs A. Ponstella
+Coordinator
+2. Miss. A. Pushpalatha
+Teaching Staff
+3. Mr D. Theepan Packia Raj
+Librarian
+Apply Now
+Contact US
+Website
+sjcas.edu.in
+Address
+JNP Nager, Vaikalipatti, Mettur,
+Tenkasi - 627 808
+Reach us
+stjosephartscollege@gmail.com
++91 7305088202, +91 7305088205
+Useful Links
+MSU
+UGG
+NIRF
+SJCE
+Our Gallery
+SJCAS.EDU.IN
+
+=================== FILE: extension_act.php ===================
+
+St Joseph College of Art and Science
++91 7305088202, +91 7305088205
+stjosephartscollege@gmail.com
+Login
+Register
+Home
+About
+About Us
+Board of Management
+Vision & Mission
+Administration
+Secretary
+Principal
+Governing Body
+Officials & Committees
+Extension Activities
+Organogram
+Academics
+Admission
+Courses
+Teaching Staff
+Administrative Staff
+Teaching Staff
+Courses Pattern
+Academic Calendar
+Physical Education
+Library
+Department
+Tamil
+English
+Mathematics
+Computer Science
+Physics
+Commerce
+Corporate Secretaryship
+IQAC
+Examinations
+Model QP
+MSU COE
+EXTENSION ACTIVITIES
+Home
+EXTENSION ACTIVITIES
+EXTENSION ACTIVITIES
+NSS
+YRC
+Enviro Club
+Eat Right Club
+EDI (Entrepreneur Development Innovation)
+Placement Cell
+NSS
+1. Mr. D. Theepan Packia Raj
+Programme Officer
+2. Dr. S. Antony Selva Jenita
+Girls wing in-charge
+3. Mr. R. Sivaraja
+Teaching Staff
+4.	Ms. J. Arockia Selva Punitha
+Teaching Staff
+5. Mr. A. Francis
+Teaching Staff
+6. Dr. A. Raja Singh
+Teaching Staff
+7. Dr. M. Muthumani
+Teaching Staff
+8. Mrs. S. Reshma
+Teaching Staff
+9. Mr A. Sarma
+Non Teaching Staff
+YRC
+1. Mr. R. Sundar
+Programme Officer
+2. Ms. R. Nithya
+Teaching Staff
+3. Dr. A. Vaijeyanthi
+Teaching Staff
+4.	Dr. M. Muthumani
+Teaching Staff
+Enviro Club
+1. Mr. G. Kuppusamy
+Coordinator
+2. Dr. G. Joseph Arunkumar
+Teaching Staff
+3. Ms. J. Arockia Selva Punitha
+Teaching Staff
+4.	Dr. A. Vaijeyanthi
+Teaching Staff
+5.	Dr. M. Muthumani
+Teaching Staff
+6.	Mr. S. Ponkumar
+Teaching Staff
+Eat Right Club
+1. Dr. S. Subamangala
+Nodal Officer
+2. Mr. A. T. Lijone
+Teaching Staff
+3. Dr. M. Ratna
+Teaching Staff
+4.	Mrs. M. Esther
+Teaching Staff
+5.	Dr. B. Vasanthi
+Teaching Staff
+EDI (Entrepreneur Development Innovation)
+1. Dr. R. Glory Deva Gnanam
+Principal
+2. Dr. A. Vaijeyanthi
+Coordinator
+3. Dr. G. Joseph Arun Kumar
+Teaching Staff
+4.	Ms. A. Pushpalatha
+Teaching Staff
+5.	Dr. A. Saratha
+Teaching Staff
+6.	Dr. S. Subamangala
+Teaching Staff
+Placement Cell
+1. Mr. Ajune Samuel Raj
+Coordinator
+2. Mr. G. Kuppusamy
+Teaching Staff
+3. Mrs. J. Ramya
+Teaching Staff
+4.	Ms. A. Pushpalatha
+Teaching Staff
+5.	Dr. B. Vasanthi
+Teaching Staff
+6.	Dr. M. Muthumani
+Teaching Staff
+Apply Now
+Contact US
+Website
+sjcas.edu.in
+Address
+JNP Nager, Vaikalipatti, Mettur,
+Tenkasi - 627 808
+Reach us
+stjosephartscollege@gmail.com
++91 7305088202, +91 7305088205
+Useful Links
+MSU
+UGG
+NIRF
+SJCE
+Our Gallery
+SJCAS.EDU.IN
+
+=================== FILE: governingbody.php ===================
+
+St Joseph College of Arts and Science
++91 7305088202, +91 7305088205
+stjosephartscollege@gmail.com
+Login
+Register
+Home
+About
+About Us
+Board of Management
+Vision & Mission
+Administration
+Secretary
+Principal
+Governing Body
+Officials & Committees
+Extension Activities
+Organogram
+Academics
+Admission
+Courses
+Teaching Staff
+Administrative Staff
+Teaching Staff
+Courses Pattern
+Academic Calendar
+Physical Education
+Library
+Department
+Tamil
+English
+Mathematics
+Computer Science
+Physics
+Commerce
+Corporate Secretaryship
+IQAC
+Examinations
+Model QP
+MSU COE
+GOVERNING BODY
+Home
+governing body
+Chairman
+Rt Rev. Dr S. Antonysamy, D.D., D.C.L.
+Bishop of R.C.Diocese of Palayamkottai
+Secretary
+Rev. Fr Dr J. Sagaya John
+St. Joseph's College of Arts and Science
+Members
+Profile
+Rev. Msgr G. Kulandairaj
+Vicar General
+Profile
+Rev. Fr.F.Gnanapragasam
+Chancellor
+Profile
+Rev. Fr.S.A.Antonysamy
+Procurator
+Profile
+Dr. R. Glory Deva Gnanam
+Principal
+Profile
+Dr. P. Annaraja
+Educationist
+Profile
+Dr. B. Xavier Innocent
+Academic Advisor
+Profile
+Dr. R. Rachel Menaka
+Senior Staff
+Profile
+Dr. K. Rajab Fathima
+University Nominee
+Apply Now
+Contact US
+Website
+sjcas.edu.in
+Address
+JNP Nager, Vaikalipatti, Mettur,
+Tenkasi - 627 808
+Reach us
+stjosephartscollege@gmail.com
++91 7305088202, +91 7305088205
+Useful Links
+MSU
+UGG
+NIRF
+SJCE
+Our Gallery
+SJCAS.EDU.IN
+
+=================== FILE: index.php ===================
+
+St Joseph College of Arts and Science
++91 7305088202, +91 7305088205
+stjosephartscollege@gmail.com
+Login
+Register
+Home
+About
+About Us
+Board of Management
+Vision & Mission
+Administration
+Secretary
+Principal
+Governing Body
+Officials & Committees
+Extension Activities
+Organogram
+Academics
+Admission
+Courses
+Teaching Staff
+Administrative Staff
+Teaching Staff
+Courses Pattern
+Academic Calendar
+Physical Education
+Library
+Department
+Tamil
+English
+Mathematics
+Computer Science
+Physics
+Commerce
+Corporate Secretaryship
+IQAC
+Examinations
+Model QP
+MSU COE
+St. Joseph College of Arts and Science
+Welcome To
+Run by R.C. Diocese of Palayamkottai
+Admission 2025 - 2026
+Batter Education For A Better Future
+Apply Now
+Admission 2025-2026
+Apply Now
+About College
+View More
+Aim of the College
+View More
+Apply Now
+Contact US
+Website
+sjcas.edu.in
+Address
+JNP Nager, Vaikalipatti, Mettur,
+Tenkasi - 627 808
+Reach us
+stjosephartscollege@gmail.com
++91 7305088202, +91 7305088205
+Useful Links
+MSU
+UGG
+NIRF
+SJCE
+Our Gallery
+SJCAS.EDU.IN
+
+=================== FILE: principal.php ===================
+
+St Joseph College of Art and Science
++91 7305088202, +91 7305088205
+stjosephartscollege@gmail.com
+Login
+Register
+Home
+About
+About Us
+Board of Management
+Vision & Mission
+Administration
+Secretary
+Principal
+Governing Body
+Officials & Committees
+Extension Activities
+Organogram
+Academics
+Admission
+Courses
+Teaching Staff
+Administrative Staff
+Teaching Staff
+Courses Pattern
+Academic Calendar
+Physical Education
+Library
+Department
+Tamil
+English
+Mathematics
+Computer Science
+Physics
+Commerce
+Corporate Secretaryship
+IQAC
+Examinations
+Model QP
+MSU COE
+Principal
+Home
+Principal
+Dr R. Glory Deva Gnanam
+Principal
+Principal Greeting Message
+Dear Parents, students and well-wishers of the St Joseph's family, my prayerful Greetings to you all. First and foremost I would like to express my sincere gratitude to every one of you for your constant support, love and prayerful concern towards our College which enables and encourages us to strive hard to carry forward the mission of spreading value - based knowledge, wisdom and education to one and all.
+Education is a multistage process of building character, acquiring knowledge and improving skills for life - long learning to lead a happy, healthy and peaceful life. Our Joseph College not only focuses on the theoretical curriculum but also helps in the development of the student personality,  extra - curricular activities and over all perspective. The objective of higher education in rural area is associated with employment as it ensures a positive attitude to see the universe from a better angle and to analyze, determine and apply an individual idea in a constructive development of the society.
+The inspiration and commitment of our management to continuous improvement and the hard work of the faculty members towards the overall growth of our students ensures that every student passing out of our College will taste the success in any sphere of life they choose to work. I hope that their desire to contribute for the benefit of the society grows with their happiness and prosperity in life.
+Apply Now
+Contact US
+Website
+sjcas.edu.in
+Address
+JNP Nager, Vaikalipatti, Mettur,
+Tenkasi - 627 808
+Reach us
+stjosephartscollege@gmail.com
++91 7305088202, +91 7305088205
+Useful Links
+MSU
+UGG
+NIRF
+SJCE
+Our Gallery
+SJCAS.EDU.IN
+
+=================== FILE: secretary.php ===================
+
+St Joseph College of Art and Science
++91 7305088202, +91 7305088205
+stjosephartscollege@gmail.com
+Login
+Register
+Home
+About
+About Us
+Board of Management
+Vision & Mission
+Administration
+Secretary
+Principal
+Governing Body
+Officials & Committees
+Extension Activities
+Organogram
+Academics
+Admission
+Courses
+Teaching Staff
+Administrative Staff
+Teaching Staff
+Courses Pattern
+Academic Calendar
+Physical Education
+Library
+Department
+Tamil
+English
+Mathematics
+Computer Science
+Physics
+Commerce
+Corporate Secretaryship
+IQAC
+Examinations
+Model QP
+MSU COE
+Secretary
+Home
+Secretary
+Rev. Fr Dr J. Sagaya John
+Secretary
+Secretary Message
+Echoing the motto “To know oneself and to know God”, St Joseph college of Arts And Science, situated in the rural area of Vaikalipatti, is an admirable self-finance coeducation college run by the R.C. Diocese of Palayamkottai.  Witnessing to the human values and respect, the institution is always keen on forming the integral personality of the students.  God fearing people will be treasured with wisdom not just with the knowledge.  The knowledge received from studies and various programmes is transmuted to the higher gift of wisdom through which the youth of our college understand the importance of principles of life, the way to face the challenges they come across on the way and find real joy of life.  God given gifts are to be utilized for the growth of the society and the progress of each one in families.  The institution takes steps to find out the hidden talents of the students and gives opportunity to grow in them through various cocurricular activities conducted in both inside and outside the college.  Though the institution experiences the challenges, ups and downs at its daily activities, we, the staff and students, learn even from the obstacles and riddles and thus have courage to do better and to be the best.  We learn to walk together in hope.  The journey includes the parents, Alumni and the well-wishers of our college. The way we have to go is too long but we join hands with one another. The people around us are proud to look at our college as a sign of their prestige and blessing to the generations.  The management is so delighted to serve the people of these areas and to participate in the future of their life. We rely on God’s power who blesses the humanity in Peace and Joy.
+Apply Now
+Contact US
+Website
+sjcas.edu.in
+Address
+JNP Nager, Vaikalipatti, Mettur,
+Tenkasi - 627 808
+Reach us
+stjosephartscollege@gmail.com
++91 7305088202, +91 7305088205
+Useful Links
+MSU
+UGG
+NIRF
+SJCE
+Our Gallery
+SJCAS.EDU.IN
