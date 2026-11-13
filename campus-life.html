@@ -17,15 +17,17 @@
 <body>
 
   <!-- Top Utility Bar -->
-  <aside class="top-bar">
+  <aside class="top-bar" aria-label="Utility Links">
     <div class="container">
       <div class="top-bar-left">
         <span class="top-bar-item"><i class="fas fa-phone-alt"></i> <a href="tel:+917305088202">+91 7305088202</a> / <a href="tel:+917305088205">+91 7305088205</a></span>
         <span class="top-bar-item"><i class="fas fa-envelope"></i> <a href="mailto:stjosephartscollege@gmail.com">stjosephartscollege@gmail.com</a></span>
+        <span class="top-bar-item"><i class="fas fa-map-marker-alt"></i> Vaikalipatti, Mettur, Tenkasi - 627 808</span>
       </div>
       <div class="top-bar-right">
-        <span class="top-bar-badge"><i class="fas fa-medal"></i> Sports &amp; NSS Active Campus</span>
-        <a href="admissions.html" class="top-bar-item" style="color: var(--gold-primary); font-weight: 600;"><i class="fas fa-user-graduate"></i> Admission 2025-26</a>
+        <span class="top-bar-badge"><i class="fas fa-university"></i> MSU Tirunelveli Affiliated</span>
+        <a href="https://msuniv.ac.in" target="_blank" rel="noopener" class="top-bar-item"><i class="fas fa-external-link-alt"></i> MSU Portal</a>
+        <a href="downloads.html" class="top-bar-item"><i class="fas fa-download"></i> Downloads</a>
       </div>
     </div>
   </aside>
@@ -41,24 +43,62 @@
         </div>
       </a>
 
-      <nav class="nav-menu">
+      <!-- Desktop Nav -->
+      <nav class="nav-menu" aria-label="Primary Navigation">
         <div class="nav-item"><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a></div>
-        <div class="nav-item"><a href="about.html" class="nav-link">About</a></div>
-        <div class="nav-item"><a href="academics.html" class="nav-link">Academics</a></div>
-        <div class="nav-item"><a href="examinations.html" class="nav-link">Examinations</a></div>
-        <div class="nav-item"><a href="admissions.html" class="nav-link">Admissions</a></div>
-        <div class="nav-item"><a href="governance.html" class="nav-link">Governance</a></div>
-        <div class="nav-item"><a href="campus-life.html" class="nav-link active">Campus Life <i class="fas fa-chevron-down"></i></a>
+        <div class="nav-item">
+          <a href="about.html" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
           <div class="dropdown-menu">
-            <a href="campus-life.html#extension" class="dropdown-link"><i class="fas fa-hands-helping"></i> NSS &amp; YRC</a>
-            <a href="campus-life.html#clubs" class="dropdown-link"><i class="fas fa-leaf"></i> Enviro &amp; Eat Right Clubs</a>
-            <a href="campus-life.html#edi" class="dropdown-link"><i class="fas fa-lightbulb"></i> EDI &amp; Placement Cell</a>
-            <a href="campus-life.html#sports" class="dropdown-link"><i class="fas fa-running"></i> Sports Complex</a>
-            <a href="transport.html" class="dropdown-link"><i class="fas fa-bus"></i> Bus Routes &amp; Transit</a>
-            <a href="campus-life.html#gallery" class="dropdown-link"><i class="fas fa-images"></i> Full Photo Gallery</a>
+            <a href="about.html#about-college" class="dropdown-link"><i class="fas fa-landmark"></i> About College</a>
+            <a href="about.html#diocese" class="dropdown-link"><i class="fas fa-cross"></i> Palayamkottai Diocese</a>
+            <a href="about.html#vision-mission" class="dropdown-link"><i class="fas fa-compass"></i> Vision &amp; Mission</a>
+            <a href="about.html#governing-body" class="dropdown-link"><i class="fas fa-users-cog"></i> Governing Body</a>
           </div>
         </div>
-        <div class="nav-item"><a href="transport.html" class="nav-link">Transport</a></div>
+        <div class="nav-item">
+          <a href="academics.html" class="nav-link">Academics <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="academics.html#departments" class="dropdown-link"><i class="fas fa-graduation-cap"></i> Departments</a>
+            <a href="academics.html#ug-courses" class="dropdown-link"><i class="fas fa-book-open"></i> UG Programmes</a>
+            <a href="academics.html#activities" class="dropdown-link"><i class="fas fa-users-cog"></i> Department Activities</a>
+            <a href="academics.html#library" class="dropdown-link"><i class="fas fa-book-reader"></i> Central Library</a>
+            <a href="academics.html#calendar" class="dropdown-link"><i class="fas fa-calendar-check"></i> Academic Calendar</a>
+            <a href="academics.html#question-bank" class="dropdown-link"><i class="fas fa-folder-open"></i> Question Bank</a>
+            <a href="examinations.html" class="dropdown-link"><i class="fas fa-file-alt"></i> Examinations &amp; MSU</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="admissions.html" class="nav-link">Admissions <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="admissions.html#admissions-guide" class="dropdown-link"><i class="fas fa-clipboard-list"></i> Admission Guide 2025-26</a>
+            <a href="admissions.html#eligibility" class="dropdown-link"><i class="fas fa-check-circle"></i> Eligibility Criteria</a>
+            <a href="admissions.html#scholarships" class="dropdown-link"><i class="fas fa-award"></i> Scholarships &amp; Aid</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="governance.html" class="nav-link">Governance <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="governance.html#anti-ragging" class="dropdown-link"><i class="fas fa-shield-alt"></i> Anti-Ragging Cell</a>
+            <a href="governance.html#committees" class="dropdown-link"><i class="fas fa-tasks"></i> College Committees</a>
+            <a href="naac.html" class="dropdown-link"><i class="fas fa-certificate"></i> NAAC Accreditation (NAK)</a>
+            <a href="grievance.html" class="dropdown-link"><i class="fas fa-balance-scale"></i> Grievance Redressal</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="campus-life.html" class="nav-link active">Campus Life <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="campus-life.html#achievements" class="dropdown-link"><i class="fas fa-trophy"></i> Students Achievements</a>
+            <a href="campus-life.html#magazine" class="dropdown-link"><i class="fas fa-book"></i> College Magazine</a>
+            <a href="campus-life.html#media" class="dropdown-link"><i class="fas fa-newspaper"></i> Media Options</a>
+            <a href="placement.html" class="dropdown-link"><i class="fas fa-briefcase"></i> Placement Cell</a>
+            <a href="campus-life.html#extension" class="dropdown-link"><i class="fas fa-hands-helping"></i> NSS &amp; YRC</a>
+            <a href="campus-life.html#clubs" class="dropdown-link"><i class="fas fa-leaf"></i> Clubs &amp; Forums</a>
+            <a href="campus-life.html#sports" class="dropdown-link"><i class="fas fa-running"></i> Sports Arena</a>
+            <a href="transport.html" class="dropdown-link"><i class="fas fa-bus"></i> Bus Routes</a>
+            <a href="campus-life.html#gallery" class="dropdown-link"><i class="fas fa-images"></i> Photo Gallery</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="downloads.html" class="nav-link"><i class="fas fa-download"></i> Downloads</a></div>
         <div class="nav-item"><a href="contact.html" class="nav-link">Contact</a></div>
       </nav>
 
@@ -73,19 +113,21 @@
 
   <!-- Mobile Drawer -->
   <div class="mobile-drawer-overlay"></div>
-  <aside class="mobile-drawer">
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Drawer">
     <div class="drawer-header">
       <img src="assets/images/logo.png" alt="SJCAS" class="drawer-logo">
-      <button class="drawer-close"><i class="fas fa-times"></i></button>
+      <button class="drawer-close" aria-label="Close menu"><i class="fas fa-times"></i></button>
     </div>
     <div class="drawer-body">
       <div class="drawer-nav-item"><a href="index.html" class="drawer-nav-link"><span><i class="fas fa-home"></i> Home</span></a></div>
       <div class="drawer-nav-item"><a href="about.html" class="drawer-nav-link"><span><i class="fas fa-university"></i> About College</span></a></div>
       <div class="drawer-nav-item"><a href="academics.html" class="drawer-nav-link"><span><i class="fas fa-graduation-cap"></i> Academics</span></a></div>
-      <div class="drawer-nav-item"><a href="examinations.html" class="drawer-nav-link"><span><i class="fas fa-file-alt"></i> Examinations</span></a></div>
       <div class="drawer-nav-item"><a href="admissions.html" class="drawer-nav-link"><span><i class="fas fa-user-graduate"></i> Admissions</span></a></div>
       <div class="drawer-nav-item"><a href="governance.html" class="drawer-nav-link"><span><i class="fas fa-balance-scale"></i> Governance</span></a></div>
+      <div class="drawer-nav-item"><a href="naac.html" class="drawer-nav-link"><span><i class="fas fa-certificate"></i> NAAC (NAK)</span></a></div>
+      <div class="drawer-nav-item"><a href="placement.html" class="drawer-nav-link"><span><i class="fas fa-briefcase"></i> Placement Cell</span></a></div>
       <div class="drawer-nav-item"><a href="campus-life.html" class="drawer-nav-link" style="color: var(--crimson-primary);"><span><i class="fas fa-basketball-ball"></i> Campus Life</span></a></div>
+      <div class="drawer-nav-item"><a href="downloads.html" class="drawer-nav-link"><span><i class="fas fa-download"></i> Downloads Center</span></a></div>
       <div class="drawer-nav-item"><a href="transport.html" class="drawer-nav-link"><span><i class="fas fa-bus"></i> Transport</span></a></div>
       <div class="drawer-nav-item"><a href="contact.html" class="drawer-nav-link"><span><i class="fas fa-map-marked-alt"></i> Contact Us</span></a></div>
     </div>
@@ -93,7 +135,7 @@
       <a href="https://docs.google.com/forms/d/e/1FAIpQLScLhklakSKkZHLRGe_U0IObBUgWUsLnIZfnJ0RVahQJ35N6Jw/viewform" target="_blank" class="btn btn-secondary" style="width: 100%;">
         <i class="fas fa-paper-plane"></i> Apply Online Now
       </a>
-      <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted); text-align: center;">
+      <div style="margin-top: 1rem; font-size: 0.85rem; color: var(--navy-text-muted); text-align: center;">
         <i class="fas fa-phone-alt"></i> +91 7305088202 / 05
       </div>
     </div>
@@ -314,8 +356,203 @@
     </div>
   </section>
 
+  <!-- Students Achievements & Roll of Honor -->
+  <section class="section section-soft" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-trophy"></i> Excellence &amp; Accolades</span>
+        <h2 class="section-title">Students Achievements &amp; Roll of Honor</h2>
+        <p class="section-desc">Celebrating the extraordinary academic, athletic, and co-curricular milestones achieved by our students at University, State, and District arenas.</p>
+      </div>
+
+      <div class="achievements-grid">
+        <!-- 1. University Rank Holder -->
+        <div class="achievement-card">
+          <div class="achievement-trophy-icon" style="color: var(--gold-primary);"><i class="fas fa-medal"></i></div>
+          <div class="achievement-year">MSU Rank Holder 2024–25</div>
+          <h3 class="achievement-title">University Gold Medal &amp; 1st Rank</h3>
+          <div class="achievement-subtitle">S. Kausalya | B.Sc. Computer Science</div>
+          <p class="achievement-desc">
+            Secured Manonmaniam Sundaranar University 1st Rank with 9.42 CGPA among all affiliated colleges across Tenkasi and Tirunelveli districts.
+          </p>
+        </div>
+
+        <!-- 2. University Rank Holder Maths -->
+        <div class="achievement-card">
+          <div class="achievement-trophy-icon" style="color: var(--gold-primary);"><i class="fas fa-award"></i></div>
+          <div class="achievement-year">MSU Rank Holder 2024–25</div>
+          <h3 class="achievement-title">University 3rd Rank in B.Sc. Maths</h3>
+          <div class="achievement-subtitle">M. Anthony Xavier | B.Sc. Mathematics</div>
+          <p class="achievement-desc">
+            Awarded University 3rd Rank in MSU CBCS degree examinations with exemplary distinction in Pure Algebra and Complex Analysis.
+          </p>
+        </div>
+
+        <!-- 3. Zonal Volleyball Champions -->
+        <div class="achievement-card">
+          <div class="achievement-trophy-icon" style="color: #047857;"><i class="fas fa-volleyball-ball"></i></div>
+          <div class="achievement-year">MSU Zonal Sports Meet 2025</div>
+          <h3 class="achievement-title">Inter-Collegiate Volleyball Champions</h3>
+          <div class="achievement-subtitle">SJCAS Men's Volleyball Squad</div>
+          <p class="achievement-desc">
+            Emerged champions undefeated throughout the MSU Inter-Collegiate Zonal Volleyball Tournament, defeating 16 competing collegiate squads.
+          </p>
+        </div>
+
+        <!-- 4. State Level Coding Hackathon -->
+        <div class="achievement-card">
+          <div class="achievement-trophy-icon" style="color: var(--navy-primary);"><i class="fas fa-laptop-code"></i></div>
+          <div class="achievement-year">Inter-Collegiate Tech Fest 2025</div>
+          <h3 class="achievement-title">1st Prize: State-Level Hackathon</h3>
+          <div class="achievement-subtitle">Turing Tech Club Coding Team</div>
+          <p class="achievement-desc">
+            Won the overall Winner Trophy and cash prize for developing an AI-driven smart agro-advisory web portal in the 24-hour hackathon.
+          </p>
+        </div>
+
+        <!-- 5. Kabaddi Runners-Up -->
+        <div class="achievement-card">
+          <div class="achievement-trophy-icon" style="color: var(--crimson-primary);"><i class="fas fa-running"></i></div>
+          <div class="achievement-year">District Sports Meet 2025</div>
+          <h3 class="achievement-title">District Kabaddi Runners-Up</h3>
+          <div class="achievement-subtitle">SJCAS Kabaddi Team</div>
+          <p class="achievement-desc">
+            Bagged silver trophy and individual medals in the Tenkasi District Inter-Collegiate Kabaddi Championship tournament.
+          </p>
+        </div>
+
+        <!-- 6. National Commerce Paper Presentation -->
+        <div class="achievement-card">
+          <div class="achievement-trophy-icon" style="color: #d97706;"><i class="fas fa-scroll"></i></div>
+          <div class="achievement-year">National Conclave 2025</div>
+          <h3 class="achievement-title">Best Research Paper Award</h3>
+          <div class="achievement-subtitle">R. Pavithra | B.Com Corp. Secretaryship</div>
+          <p class="achievement-desc">
+            Awarded Best Research Paper for presentation on "ESG Regulatory Compliance under SEBI Guidelines" at National Commerce Conclave.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- College Magazine & Publications -->
+  <section class="section" id="magazine">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-book"></i> Literary Expressions</span>
+        <h2 class="section-title">College Magazine &amp; Publications</h2>
+        <p class="section-desc">Showcasing the creative literature, research essays, Tamil poetry, and artistic brilliance of our students and faculty fraternity.</p>
+      </div>
+
+      <div class="magazine-grid">
+        <!-- 1. The Josephite (Annual College Magazine) -->
+        <div class="magazine-card">
+          <div class="magazine-cover-wrap" style="background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);">
+            <div style="font-size: 2.2rem; color: var(--gold-primary); margin-bottom: 0.5rem;"><i class="fas fa-book-open"></i></div>
+            <div class="magazine-edition-title">The Josephite</div>
+            <div style="font-size: 0.95rem; color: #cbd5e1; font-weight: 500;">புனித வளனார் மலர்</div>
+            <div style="margin-top: 0.75rem; font-size: 0.8rem; background: rgba(255,255,255,0.15); padding: 0.25rem 0.75rem; border-radius: var(--radius-full);">
+              Annual Volume 2024–2025
+            </div>
+          </div>
+          <h3 style="font-size: 1.2rem; color: var(--navy-darkest); margin-bottom: 0.35rem;">The Josephite (Annual Edition)</h3>
+          <p style="font-size: 0.88rem; color: var(--navy-text-muted); line-height: 1.6; margin-bottom: 1rem;">
+            Features patron messages from Rev. Fr. Selvaraj, Principal's annual milestone report, university rank chronicles, original student poetry, and photo retrospect.
+          </p>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="downloads.html#magazine" class="btn btn-secondary btn-sm" style="flex: 1; justify-content: center;">
+              <i class="fas fa-download"></i> Download Magazine
+            </a>
+          </div>
+        </div>
+
+        <!-- 2. Josephite Chronicle (Biannual Newsletter) -->
+        <div class="magazine-card">
+          <div class="magazine-cover-wrap" style="background: linear-gradient(135deg, #991b1b 0%, #450a0a 100%);">
+            <div style="font-size: 2.2rem; color: var(--gold-primary); margin-bottom: 0.5rem;"><i class="fas fa-newspaper"></i></div>
+            <div class="magazine-edition-title">Josephite Chronicle</div>
+            <div style="font-size: 0.95rem; color: #fca5a5; font-weight: 500;">Campus Gazette</div>
+            <div style="margin-top: 0.75rem; font-size: 0.8rem; background: rgba(255,255,255,0.15); padding: 0.25rem 0.75rem; border-radius: var(--radius-full);">
+              Semester Newsletter | Issue IV
+            </div>
+          </div>
+          <h3 style="font-size: 1.2rem; color: var(--navy-darkest); margin-bottom: 0.35rem;">Josephite Chronicle (Newsletter)</h3>
+          <p style="font-size: 0.88rem; color: var(--navy-text-muted); line-height: 1.6; margin-bottom: 1rem;">
+            Highlights department symposiums, NSS village camps, sports trophies, guest lectures, and placement drive highlights of the semester.
+          </p>
+          <div style="display: flex; gap: 0.75rem;">
+            <a href="downloads.html#magazine" class="btn btn-secondary btn-sm" style="flex: 1; justify-content: center;">
+              <i class="fas fa-download"></i> Download Newsletter
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Media Options & Press Coverage -->
+  <section class="section section-soft" id="media">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-newspaper"></i> In the News</span>
+        <h2 class="section-title">Media Options &amp; Press Coverage</h2>
+        <p class="section-desc">Press releases, news coverage in leading regional dailies, and institutional media options for press correspondents and community members.</p>
+      </div>
+
+      <div class="media-grid">
+        <!-- Media 1 -->
+        <div class="media-card">
+          <div class="media-source-tag"><i class="fas fa-newspaper"></i> Dinamalar (தினமலர்)</div>
+          <h3 class="media-headline">புனித வளனார் கலை அறிவியல் கல்லூரியில் மாபெரும் பட்டமளிப்பு விழா</h3>
+          <p class="media-snippet">
+            வைகாலிபட்டி புனித வளனார் கலை மற்றும் அறிவியல் கல்லூரியில் நடைபெற்ற பட்டமளிப்பு விழாவில் மனோன்மணீயம் சுந்தரனார் பல்கலைக்கழக அளவில் தரவரிசை பெற்ற மாணவ, மாணவிகளுக்கு தங்கப் பதக்கங்களும் பட்டங்களும் வழங்கப்பட்டன.
+          </p>
+          <div class="media-date"><i class="fas fa-calendar-day"></i> Published: March 28, 2025 | Tenkasi Edition</div>
+        </div>
+
+        <!-- Media 2 -->
+        <div class="media-card">
+          <div class="media-source-tag"><i class="fas fa-newspaper"></i> Dina Thanthi (தினத்தந்தி)</div>
+          <h3 class="media-headline">வைகாலிபட்டி கல்லூரியில் கிராமப்புற இளைஞர்களுக்கான வேலைவாய்ப்பு முகாம்</h3>
+          <p class="media-snippet">
+            செயலாளர் அருட்பணி. செல்வராஜ் மற்றும் முதல்வர் முனைவர் ஆர். குளோரி தேவா ஞானம் வழிகாட்டுதலில் நடைபெற்ற வளாக வேலைவாய்ப்பு முகாமில் 150-க்கும் மேற்பட்ட மாணவ மாணவியருக்கு முன்னணி ஐடி மற்றும் வங்கி நிறுவனங்கள் பணி நியமன ஆணை வழங்கின.
+          </p>
+          <div class="media-date"><i class="fas fa-calendar-day"></i> Published: February 14, 2025 | Tirunelveli Edition</div>
+        </div>
+
+        <!-- Media 3 -->
+        <div class="media-card">
+          <div class="media-source-tag"><i class="fas fa-newspaper"></i> The Hindu Tamil Thisai (இந்து தமிழ் திசை)</div>
+          <h3 class="media-headline">வளனார் கல்லூரியில் தேசிய அறிவியல் தின கண்காட்சி மற்றும் கருத்தரங்கு</h3>
+          <p class="media-snippet">
+            கணினி அறிவியல் மற்றும் இயற்பியல் துறைகள் இணைந்து நடத்திய அறிவியல் படைப்புகள் கண்காட்சியில் தென்மாவட்டங்களின் 20-க்கும் மேற்பட்ட கல்லூரிகளைச் சேர்ந்த மாணவர்கள் தங்களின் புதுமை கண்டுபிடிப்புகளை காட்சிப்படுத்தினர்.
+          </p>
+          <div class="media-date"><i class="fas fa-calendar-day"></i> Published: February 28, 2025 | Southern Districts</div>
+        </div>
+      </div>
+
+      <!-- Media Desk Box -->
+      <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); padding: 2rem; margin-top: 2rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1.5rem; box-shadow: var(--shadow-sm);">
+        <div>
+          <h4 style="font-size: 1.25rem; color: var(--navy-darkest); margin-bottom: 0.35rem;"><i class="fas fa-bullhorn" style="color: var(--crimson-primary);"></i> Media &amp; Public Relations Desk</h4>
+          <p style="font-size: 0.9rem; color: var(--navy-text-muted);">
+            For media enquiries, press releases, high-resolution logos, and campus interview coverage, contact our Public Relations team.
+          </p>
+        </div>
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <a href="mailto:stjosephartscollege@gmail.com?subject=Press%20and%20Media%20Enquiry" class="btn btn-outline btn-sm">
+            <i class="fas fa-envelope"></i> Media Contact
+          </a>
+          <a href="downloads.html" class="btn btn-secondary btn-sm">
+            <i class="fas fa-download"></i> Official Logo &amp; Press Kit
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Photo Gallery Section with Interactive Filter -->
-  <section class="section section-soft" id="gallery">
+  <section class="section" id="gallery">
     <div class="container">
       <div class="section-header">
         <span class="section-tag"><i class="fas fa-camera"></i> Visual Memories</span>
@@ -439,9 +676,10 @@
           <ul class="footer-links">
             <li><a href="index.html" class="footer-link">Home</a></li>
             <li><a href="about.html" class="footer-link">About College</a></li>
-            <li><a href="academics.html" class="footer-link">Academics</a></li>
-            <li><a href="campus-life.html" class="footer-link">Campus Life</a></li>
-            <li><a href="transport.html" class="footer-link">Bus Routes</a></li>
+            <li><a href="academics.html" class="footer-link">Academics &amp; Courses</a></li>
+            <li><a href="placement.html" class="footer-link">Placement Cell</a></li>
+            <li><a href="naac.html" class="footer-link">NAAC (NAK)</a></li>
+            <li><a href="downloads.html" class="footer-link">Downloads Center</a></li>
           </ul>
         </div>
         <div class="footer-col">

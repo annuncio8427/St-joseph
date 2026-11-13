@@ -17,15 +17,17 @@
 <body>
 
   <!-- Top Utility Bar -->
-  <aside class="top-bar">
+  <aside class="top-bar" aria-label="Utility Links">
     <div class="container">
       <div class="top-bar-left">
         <span class="top-bar-item"><i class="fas fa-phone-alt"></i> <a href="tel:+917305088202">+91 7305088202</a> / <a href="tel:+917305088205">+91 7305088205</a></span>
         <span class="top-bar-item"><i class="fas fa-envelope"></i> <a href="mailto:stjosephartscollege@gmail.com">stjosephartscollege@gmail.com</a></span>
+        <span class="top-bar-item"><i class="fas fa-map-marker-alt"></i> Vaikalipatti, Mettur, Tenkasi - 627 808</span>
       </div>
       <div class="top-bar-right">
-        <span class="top-bar-badge"><i class="fas fa-university"></i> MSU Affiliated</span>
-        <a href="https://msuniv.ac.in" target="_blank" rel="noopener" class="top-bar-item"><i class="fas fa-external-link-alt"></i> MSU COE Exam Portal</a>
+        <span class="top-bar-badge"><i class="fas fa-university"></i> MSU Tirunelveli Affiliated</span>
+        <a href="https://msuniv.ac.in" target="_blank" rel="noopener" class="top-bar-item"><i class="fas fa-external-link-alt"></i> MSU Portal</a>
+        <a href="downloads.html" class="top-bar-item"><i class="fas fa-download"></i> Downloads</a>
       </div>
     </div>
   </aside>
@@ -41,20 +43,58 @@
         </div>
       </a>
 
-      <nav class="nav-menu">
+      <nav class="nav-menu" aria-label="Primary Navigation">
         <div class="nav-item"><a href="index.html" class="nav-link"><i class="fas fa-home"></i> Home</a></div>
-        <div class="nav-item"><a href="about.html" class="nav-link">About</a></div>
-        <div class="nav-item"><a href="academics.html" class="nav-link active">Academics <i class="fas fa-chevron-down"></i></a>
+        <div class="nav-item">
+          <a href="about.html" class="nav-link">About <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="about.html#about-college" class="dropdown-link"><i class="fas fa-landmark"></i> About College</a>
+            <a href="about.html#diocese" class="dropdown-link"><i class="fas fa-cross"></i> Palayamkottai Diocese</a>
+            <a href="about.html#vision-mission" class="dropdown-link"><i class="fas fa-compass"></i> Vision &amp; Mission</a>
+            <a href="about.html#governing-body" class="dropdown-link"><i class="fas fa-users-cog"></i> Governing Body</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="academics.html" class="nav-link active">Academics <i class="fas fa-chevron-down"></i></a>
           <div class="dropdown-menu">
             <a href="academics.html#departments" class="dropdown-link"><i class="fas fa-graduation-cap"></i> Departments</a>
             <a href="academics.html#ug-courses" class="dropdown-link"><i class="fas fa-book-open"></i> UG Programmes</a>
-            <a href="academics.html#library" class="dropdown-link"><i class="fas fa-book-reader"></i> Central Library</a>
-            <a href="academics.html#laboratories" class="dropdown-link"><i class="fas fa-flask"></i> Laboratories</a>
+            <a href="academics.html#activities" class="dropdown-link"><i class="fas fa-users-cog"></i> Department Activities</a>
+            <a href="academics.html#library" class="dropdown-link"><i class="fas fa-book-reader"></i> Central Library &amp; Books</a>
+            <a href="academics.html#calendar" class="dropdown-link"><i class="fas fa-calendar-check"></i> Academic Calendar</a>
+            <a href="academics.html#question-bank" class="dropdown-link"><i class="fas fa-folder-open"></i> Question Bank</a>
+            <a href="examinations.html" class="dropdown-link"><i class="fas fa-file-alt"></i> Examinations &amp; MSU</a>
           </div>
         </div>
-        <div class="nav-item"><a href="admissions.html" class="nav-link">Admissions</a></div>
-        <div class="nav-item"><a href="governance.html" class="nav-link">Governance</a></div>
-        <div class="nav-item"><a href="campus-life.html" class="nav-link">Campus Life</a></div>
+        <div class="nav-item">
+          <a href="admissions.html" class="nav-link">Admissions <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="admissions.html#admissions-guide" class="dropdown-link"><i class="fas fa-clipboard-list"></i> Admission Guide 2025-26</a>
+            <a href="admissions.html#eligibility" class="dropdown-link"><i class="fas fa-check-circle"></i> Eligibility Criteria</a>
+            <a href="admissions.html#scholarships" class="dropdown-link"><i class="fas fa-award"></i> Scholarships &amp; Aid</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="governance.html" class="nav-link">Governance <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="governance.html#anti-ragging" class="dropdown-link"><i class="fas fa-shield-alt"></i> Anti-Ragging Cell</a>
+            <a href="governance.html#committees" class="dropdown-link"><i class="fas fa-tasks"></i> College Committees</a>
+            <a href="naac.html" class="dropdown-link"><i class="fas fa-certificate"></i> NAAC Accreditation (NAK)</a>
+            <a href="grievance.html" class="dropdown-link"><i class="fas fa-balance-scale"></i> Grievance Redressal</a>
+          </div>
+        </div>
+        <div class="nav-item">
+          <a href="campus-life.html" class="nav-link">Campus Life <i class="fas fa-chevron-down"></i></a>
+          <div class="dropdown-menu">
+            <a href="campus-life.html#achievements" class="dropdown-link"><i class="fas fa-trophy"></i> Students Achievements</a>
+            <a href="campus-life.html#magazine" class="dropdown-link"><i class="fas fa-book"></i> College Magazine</a>
+            <a href="campus-life.html#media" class="dropdown-link"><i class="fas fa-newspaper"></i> Media Options</a>
+            <a href="placement.html" class="dropdown-link"><i class="fas fa-briefcase"></i> Placement Cell</a>
+            <a href="transport.html" class="dropdown-link"><i class="fas fa-bus"></i> Bus Routes</a>
+            <a href="campus-life.html#gallery" class="dropdown-link"><i class="fas fa-images"></i> Photo Gallery</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="downloads.html" class="nav-link"><i class="fas fa-download"></i> Downloads</a></div>
         <div class="nav-item"><a href="contact.html" class="nav-link">Contact</a></div>
       </nav>
 
@@ -69,19 +109,25 @@
 
   <!-- Mobile Drawer -->
   <div class="mobile-drawer-overlay"></div>
-  <aside class="mobile-drawer">
+  <aside class="mobile-drawer" aria-label="Mobile Navigation Drawer">
     <div class="drawer-header">
       <img src="assets/images/logo.png" alt="SJCAS" class="drawer-logo">
-      <button class="drawer-close"><i class="fas fa-times"></i></button>
+      <button class="drawer-close" aria-label="Close menu"><i class="fas fa-times"></i></button>
     </div>
     <div class="drawer-body">
       <div class="drawer-nav-item"><a href="index.html" class="drawer-nav-link"><span><i class="fas fa-home"></i> Home</span></a></div>
       <div class="drawer-nav-item"><a href="about.html" class="drawer-nav-link"><span><i class="fas fa-university"></i> About College</span></a></div>
-      <div class="drawer-nav-item"><a href="academics.html" class="drawer-nav-link" style="color: var(--color-secondary);"><span><i class="fas fa-graduation-cap"></i> Academics</span></a></div>
+      <div class="drawer-nav-item"><a href="academics.html" class="drawer-nav-link" style="color: var(--crimson-primary);"><span><i class="fas fa-graduation-cap"></i> Academics</span></a></div>
       <div class="drawer-nav-item"><a href="admissions.html" class="drawer-nav-link"><span><i class="fas fa-user-graduate"></i> Admissions</span></a></div>
       <div class="drawer-nav-item"><a href="governance.html" class="drawer-nav-link"><span><i class="fas fa-balance-scale"></i> Governance</span></a></div>
+      <div class="drawer-nav-item"><a href="naac.html" class="drawer-nav-link"><span><i class="fas fa-certificate"></i> NAAC (NAK)</span></a></div>
+      <div class="drawer-nav-item"><a href="placement.html" class="drawer-nav-link"><span><i class="fas fa-briefcase"></i> Placement Cell</span></a></div>
       <div class="drawer-nav-item"><a href="campus-life.html" class="drawer-nav-link"><span><i class="fas fa-basketball-ball"></i> Campus Life</span></a></div>
+      <div class="drawer-nav-item"><a href="downloads.html" class="drawer-nav-link"><span><i class="fas fa-download"></i> Downloads Center</span></a></div>
       <div class="drawer-nav-item"><a href="contact.html" class="drawer-nav-link"><span><i class="fas fa-map-marked-alt"></i> Contact Us</span></a></div>
+    </div>
+    <div class="drawer-footer">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLScLhklakSKkZHLRGe_U0IObBUgWUsLnIZfnJ0RVahQJ35N6Jw/viewform" target="_blank" class="btn btn-secondary" style="width: 100%;">Apply Online</a>
     </div>
   </aside>
 
@@ -333,32 +379,425 @@
     </div>
   </section>
 
-  <!-- Central Library & Learning Resources -->
-  <section class="section section-soft" id="library">
+  <!-- Department Activities of Program -->
+  <section class="section section-soft" id="activities">
     <div class="container">
-      <div class="about-grid">
-        <div>
-          <span class="section-tag"><i class="fas fa-book-reader"></i> Knowledge Repository</span>
-          <h2 class="section-title">Central Library &amp; Reading Room</h2>
-          <p style="color: var(--color-text-muted); line-height: 1.8; margin-bottom: 1.25rem;">
-            The College Library serves as the intellectual powerhouse for staff and students. Managed under the guidance of <strong>Librarian Mr. D. Theepan Packia Raj</strong>, the library houses an extensive collection of textbooks, standard references, academic journals, national dailies, and competitive examination study packs (UPSC, TNPSC, Banking, UGC-NET).
-          </p>
-          <div class="about-features-list">
-            <div class="feature-check-item"><i class="fas fa-check-circle"></i><span>Extensive Book Collection</span></div>
-            <div class="feature-check-item"><i class="fas fa-check-circle"></i><span>National &amp; Regional Periodicals</span></div>
-            <div class="feature-check-item"><i class="fas fa-check-circle"></i><span>Digital Reading &amp; Internet Access</span></div>
-            <div class="feature-check-item"><i class="fas fa-check-circle"></i><span>Quiet Study &amp; Research Zones</span></div>
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-calendar-check"></i> Experiential Learning</span>
+        <h2 class="section-title">Department Activities of Program</h2>
+        <p class="section-desc">Each academic department runs vibrant student associations that organize seminars, symposiums, hackathons, quizzes, industrial visits, and cultural celebrations.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 1.75rem;">
+        
+        <!-- 1. Turing Tech Club (CS) -->
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); padding: 2rem; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+              <div style="width: 48px; height: 48px; border-radius: var(--radius-lg); background: rgba(30, 58, 138, 0.1); color: var(--navy-primary); display: flex; align-items: center; justify-content: center; font-size: 1.35rem;"><i class="fas fa-laptop-code"></i></div>
+              <span class="meta-pill" style="font-size: 0.78rem;">B.Sc. Computer Science</span>
+            </div>
+            <h3 style="font-size: 1.25rem; color: var(--navy-darkest); margin-bottom: 0.5rem;">Turing Tech Club</h3>
+            <p style="font-size: 0.9rem; color: var(--navy-text-muted); line-height: 1.65; margin-bottom: 1.25rem;">
+              The tech association promotes peer programming, web development workshops, artificial intelligence tech talks, and annual inter-collegiate coding hackathons.
+            </p>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.86rem; color: var(--navy-text);">
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> "BYTE-CRAFT 2025" State-Level Coding Fest</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Python for Beginners &amp; Full-Stack Bootcamp</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> National Science Day Software &amp; IoT Project Expo</li>
+            </ul>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--navy-surface-border); font-size: 0.82rem; color: var(--navy-text-muted);">
+            <i class="fas fa-user-tie"></i> Faculty Coordinator: <strong>Mr. Ajune Samuel Raj</strong>
           </div>
         </div>
-        <div>
-          <img src="assets/images/campus/facilities-2.jpg" alt="SJCAS Library" style="border-radius: var(--radius-xl); box-shadow: var(--shadow-xl); width: 100%; object-fit: cover;">
+
+        <!-- 2. Ramanujan Mathematical Society (Maths) -->
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); padding: 2rem; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+              <div style="width: 48px; height: 48px; border-radius: var(--radius-lg); background: rgba(180, 83, 9, 0.1); color: var(--gold-dark); display: flex; align-items: center; justify-content: center; font-size: 1.35rem;"><i class="fas fa-infinity"></i></div>
+              <span class="meta-pill" style="font-size: 0.78rem;">B.Sc. Mathematics</span>
+            </div>
+            <h3 style="font-size: 1.25rem; color: var(--navy-darkest); margin-bottom: 0.5rem;">Ramanujan Forum</h3>
+            <p style="font-size: 0.9rem; color: var(--navy-text-muted); line-height: 1.65; margin-bottom: 1.25rem;">
+              Cultivates mathematical curiosity, analytical logic, and quantitative aptitude through competitive Olympiad drills and historical mathematical seminars.
+            </p>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.86rem; color: var(--navy-text);">
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> National Mathematics Day (Dec 22) Symposium</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Vedic Math &amp; Speed Arithmetic Masterclass</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Inter-departmental Calculus &amp; Probability Quiz</li>
+            </ul>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--navy-surface-border); font-size: 0.82rem; color: var(--navy-text-muted);">
+            <i class="fas fa-user-tie"></i> Faculty Coordinator: <strong>Mrs. J. Hepzibah</strong>
+          </div>
+        </div>
+
+        <!-- 3. Curie Circle (Physics) -->
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); padding: 2rem; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+              <div style="width: 48px; height: 48px; border-radius: var(--radius-lg); background: rgba(4, 120, 87, 0.1); color: #047857; display: flex; align-items: center; justify-content: center; font-size: 1.35rem;"><i class="fas fa-atom"></i></div>
+              <span class="meta-pill" style="font-size: 0.78rem;">B.Sc. Physics</span>
+            </div>
+            <h3 style="font-size: 1.25rem; color: var(--navy-darkest); margin-bottom: 0.5rem;">Madame Curie Physics Forum</h3>
+            <p style="font-size: 0.9rem; color: var(--navy-text-muted); line-height: 1.65; margin-bottom: 1.25rem;">
+              Dedicated to experimental discovery, circuit building demonstrations, optics exhibitions, and celestial observation night-camps.
+            </p>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.86rem; color: var(--navy-text);">
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Telescope Sky-Watching &amp; Astronomy Night</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Working Model Electronics &amp; Solar Energy Expo</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Industrial Visit to Kudankulam Nuclear Plant Area</li>
+            </ul>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--navy-surface-border); font-size: 0.82rem; color: var(--navy-text-muted);">
+            <i class="fas fa-user-tie"></i> Faculty Coordinator: <strong>Dr. P. Abubakkar Sithique</strong>
+          </div>
+        </div>
+
+        <!-- 4. Chanakya Commerce Association (B.Com) -->
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); padding: 2rem; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+              <div style="width: 48px; height: 48px; border-radius: var(--radius-lg); background: rgba(153, 27, 27, 0.1); color: var(--crimson-primary); display: flex; align-items: center; justify-content: center; font-size: 1.35rem;"><i class="fas fa-chart-pie"></i></div>
+              <span class="meta-pill" style="font-size: 0.78rem;">B.Com</span>
+            </div>
+            <h3 style="font-size: 1.25rem; color: var(--navy-darkest); margin-bottom: 0.5rem;">Chanakya Commerce Club</h3>
+            <p style="font-size: 0.9rem; color: var(--navy-text-muted); line-height: 1.65; margin-bottom: 1.25rem;">
+              Prepares commerce graduates for finance, banking, taxation, and entrepreneurial careers through practical simulations and live trade bazaars.
+            </p>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.86rem; color: var(--navy-text);">
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Annual Union Budget Analysis Colloquium</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> "Josephite Commerce Bazaar" Young Entrepreneurs Fair</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Tally Prime with GST Hands-on Certification</li>
+            </ul>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--navy-surface-border); font-size: 0.82rem; color: var(--navy-text-muted);">
+            <i class="fas fa-user-tie"></i> Faculty Coordinator: <strong>Dr. R. Glory Deva Gnanam</strong>
+          </div>
+        </div>
+
+        <!-- 5. Corporate Governance Forum (B.Com CS) -->
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); padding: 2rem; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+              <div style="width: 48px; height: 48px; border-radius: var(--radius-lg); background: rgba(79, 70, 229, 0.1); color: #4f46e5; display: flex; align-items: center; justify-content: center; font-size: 1.35rem;"><i class="fas fa-balance-scale"></i></div>
+              <span class="meta-pill" style="font-size: 0.78rem;">B.Com Corporate Sec.</span>
+            </div>
+            <h3 style="font-size: 1.25rem; color: var(--navy-darkest); margin-bottom: 0.5rem;">Corporate Governance Forum</h3>
+            <p style="font-size: 0.9rem; color: var(--navy-text-muted); line-height: 1.65; margin-bottom: 1.25rem;">
+              Focuses on corporate law compliances, secretarial auditing practices, mock AGM board proceedings, and ICSI foundation career mentoring.
+            </p>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.86rem; color: var(--navy-text);">
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Mock Annual General Meeting (AGM) Simulation</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Companies Act 2013 Compliance Workshop</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Interaction with Practicing Company Secretaries (CS)</li>
+            </ul>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--navy-surface-border); font-size: 0.82rem; color: var(--navy-text-muted);">
+            <i class="fas fa-user-tie"></i> Faculty Coordinator: <strong>Mr. S. Micheal Raj</strong>
+          </div>
+        </div>
+
+        <!-- 6. Shakespeare Literary Association (B.A. English) -->
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); padding: 2rem; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+              <div style="width: 48px; height: 48px; border-radius: var(--radius-lg); background: rgba(217, 119, 6, 0.1); color: #d97706; display: flex; align-items: center; justify-content: center; font-size: 1.35rem;"><i class="fas fa-feather-alt"></i></div>
+              <span class="meta-pill" style="font-size: 0.78rem;">B.A. English</span>
+            </div>
+            <h3 style="font-size: 1.25rem; color: var(--navy-darkest); margin-bottom: 0.5rem;">Shakespeare Literary Club</h3>
+            <p style="font-size: 0.9rem; color: var(--navy-text-muted); line-height: 1.65; margin-bottom: 1.25rem;">
+              Enriches linguistic fluency, theatrical dramatics, creative essay writing, poetry recitation, and phonetics pronunciation masterclasses.
+            </p>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.86rem; color: var(--navy-text);">
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Annual English Drama &amp; Skit Festival</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Inter-Departmental Elocution &amp; Debate Competition</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> Creative Poetry &amp; Short-Story Anthology Release</li>
+            </ul>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--navy-surface-border); font-size: 0.82rem; color: var(--navy-text-muted);">
+            <i class="fas fa-user-tie"></i> Faculty Coordinator: <strong>Mrs. A. Stella Mary</strong>
+          </div>
+        </div>
+
+        <!-- 7. Bharathi Tamil Mandram (B.A. Tamil) -->
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); padding: 2rem; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; justify-content: space-between;">
+          <div>
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem;">
+              <div style="width: 48px; height: 48px; border-radius: var(--radius-lg); background: rgba(185, 28, 28, 0.1); color: var(--crimson-primary); display: flex; align-items: center; justify-content: center; font-size: 1.35rem;"><i class="fas fa-book"></i></div>
+              <span class="meta-pill" style="font-size: 0.78rem;">B.A. Tamil</span>
+            </div>
+            <h3 style="font-size: 1.25rem; color: var(--navy-darkest); margin-bottom: 0.5rem;">பாரதி தமிழ் மன்றம்</h3>
+            <p style="font-size: 0.9rem; color: var(--navy-text-muted); line-height: 1.65; margin-bottom: 1.25rem;">
+              செந்தமிழின் தொன்மை, இலக்கிய நயம், நாட்டுப்புற கலைகள், கவியரங்கம் மற்றும் விவாதப் பட்டிமன்றங்களை ஆண்டுதோறும் முன்னெடுத்துச் செல்லும் தமிழ்ப் பண்பாட்டுப் பாசறை.
+            </p>
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.86rem; color: var(--navy-text);">
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> ஆண்டு முத்தமிழ் விழா (இயல், இசை, நாடகம்)</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> மாபெரும் கல்லூரிப் பட்டிமன்றம் &amp; கவியரங்கம்</li>
+              <li><i class="fas fa-check-circle" style="color: var(--crimson-primary); font-size: 0.75rem;"></i> TNPSC தொகுதி IV பொதுத்தமிழ் இலவசப் பயிற்சி முகாம்</li>
+            </ul>
+          </div>
+          <div style="margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--navy-surface-border); font-size: 0.82rem; color: var(--navy-text-muted);">
+            <i class="fas fa-user-tie"></i> Faculty Coordinator: <strong>Dr. M. John Kennedy</strong>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Central Library & Book Details -->
+  <section class="section" id="library">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-book-reader"></i> Learning Resources</span>
+        <h2 class="section-title">Central Library &amp; Book Details</h2>
+        <p class="section-desc">Serving as the knowledge nerve-center of St. Joseph College, our automated library provides scholars with extensive reference texts, international journals, and digital research archives.</p>
+      </div>
+
+      <!-- Library Statistics Matrix -->
+      <div class="library-stats-grid">
+        <div class="library-stat-card">
+          <div class="library-stat-number">10,500+</div>
+          <div class="library-stat-label">Total Text &amp; Reference Volumes</div>
+        </div>
+        <div class="library-stat-card">
+          <div class="library-stat-number">18</div>
+          <div class="library-stat-label">National &amp; Int'l Journals</div>
+        </div>
+        <div class="library-stat-card">
+          <div class="library-stat-number">12</div>
+          <div class="library-stat-label">Magazines &amp; Periodicals</div>
+        </div>
+        <div class="library-stat-card">
+          <div class="library-stat-number">1,99,500+</div>
+          <div class="library-stat-label">N-LIST e-Books &amp; e-Journals</div>
+        </div>
+        <div class="library-stat-card">
+          <div class="library-stat-number">120</div>
+          <div class="library-stat-label">Quiet Reading Hall Seats</div>
+        </div>
+      </div>
+
+      <!-- Department Book Details Breakdown Table -->
+      <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); padding: 2rem; margin-top: 2rem; box-shadow: var(--shadow-sm);">
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
+          <div>
+            <h3 style="font-size: 1.35rem; color: var(--navy-darkest); margin-bottom: 0.25rem;">Department-wise Book Holdings Breakdown</h3>
+            <p style="font-size: 0.88rem; color: var(--navy-text-muted);">Curated strictly under Manonmaniam Sundaranar University curriculum guidelines.</p>
+          </div>
+          <span class="meta-pill"><i class="fas fa-barcode"></i> Barcode Automated Circulation</span>
+        </div>
+
+        <div style="overflow-x: auto;">
+          <table style="width: 100%; border-collapse: collapse; font-size: 0.92rem;">
+            <thead>
+              <tr style="background: var(--navy-surface-soft); text-align: left; border-bottom: 2px solid var(--navy-surface-border);">
+                <th style="padding: 0.85rem 1rem; font-weight: 700; color: var(--navy-darkest);">Department / Discipline</th>
+                <th style="padding: 0.85rem 1rem; font-weight: 700; color: var(--navy-darkest);">Textbooks</th>
+                <th style="padding: 0.85rem 1rem; font-weight: 700; color: var(--navy-darkest);">Reference Volumes</th>
+                <th style="padding: 0.85rem 1rem; font-weight: 700; color: var(--navy-darkest);">Total Titles</th>
+                <th style="padding: 0.85rem 1rem; font-weight: 700; color: var(--navy-darkest);">Subscribed Journals</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr style="border-bottom: 1px solid var(--navy-surface-border);">
+                <td style="padding: 0.85rem 1rem; font-weight: 600;">Computer Science &amp; IT</td>
+                <td style="padding: 0.85rem 1rem;">1,620</td>
+                <td style="padding: 0.85rem 1rem;">530</td>
+                <td style="padding: 0.85rem 1rem; font-weight: 700; color: var(--crimson-primary);">2,150</td>
+                <td style="padding: 0.85rem 1rem;">4 National Journals</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--navy-surface-border); background: #fafafa;">
+                <td style="padding: 0.85rem 1rem; font-weight: 600;">Commerce &amp; Corporate Secretaryship</td>
+                <td style="padding: 0.85rem 1rem;">1,950</td>
+                <td style="padding: 0.85rem 1rem;">700</td>
+                <td style="padding: 0.85rem 1rem; font-weight: 700; color: var(--crimson-primary);">2,650</td>
+                <td style="padding: 0.85rem 1rem;">5 Business Periodicals</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--navy-surface-border);">
+                <td style="padding: 0.85rem 1rem; font-weight: 600;">Mathematics &amp; Statistics</td>
+                <td style="padding: 0.85rem 1rem;">1,400</td>
+                <td style="padding: 0.85rem 1rem;">450</td>
+                <td style="padding: 0.85rem 1rem; font-weight: 700; color: var(--crimson-primary);">1,850</td>
+                <td style="padding: 0.85rem 1rem;">3 Math Journals</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--navy-surface-border); background: #fafafa;">
+                <td style="padding: 0.85rem 1rem; font-weight: 600;">Physics &amp; Applied Electronics</td>
+                <td style="padding: 0.85rem 1rem;">1,080</td>
+                <td style="padding: 0.85rem 1rem;">340</td>
+                <td style="padding: 0.85rem 1rem; font-weight: 700; color: var(--crimson-primary);">1,420</td>
+                <td style="padding: 0.85rem 1rem;">2 Science Journals</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--navy-surface-border);">
+                <td style="padding: 0.85rem 1rem; font-weight: 600;">English Literature &amp; Linguistics</td>
+                <td style="padding: 0.85rem 1rem;">1,050</td>
+                <td style="padding: 0.85rem 1rem;">330</td>
+                <td style="padding: 0.85rem 1rem; font-weight: 700; color: var(--crimson-primary);">1,380</td>
+                <td style="padding: 0.85rem 1rem;">2 Literary Reviews</td>
+              </tr>
+              <tr style="border-bottom: 1px solid var(--navy-surface-border); background: #fafafa;">
+                <td style="padding: 0.85rem 1rem; font-weight: 600;">Tamil Literature &amp; Classical Texts</td>
+                <td style="padding: 0.85rem 1rem;">980</td>
+                <td style="padding: 0.85rem 1rem;">270</td>
+                <td style="padding: 0.85rem 1rem; font-weight: 700; color: var(--crimson-primary);">1,250</td>
+                <td style="padding: 0.85rem 1rem;">2 Tamil Periodicals</td>
+              </tr>
+              <tr>
+                <td style="padding: 0.85rem 1rem; font-weight: 600;">General Knowledge &amp; Competitive Exams (UPSC/TNPSC/NET)</td>
+                <td style="padding: 0.85rem 1rem;">620</td>
+                <td style="padding: 0.85rem 1rem;">230</td>
+                <td style="padding: 0.85rem 1rem; font-weight: 700; color: var(--crimson-primary);">850</td>
+                <td style="padding: 0.85rem 1rem;">Daily English &amp; Tamil Dailies</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; margin-top: 1.5rem; padding-top: 1.25rem; border-top: 1px solid var(--navy-surface-border);">
+          <div style="font-size: 0.88rem; color: var(--navy-text-muted);">
+            <i class="fas fa-clock"></i> <strong>Library Timings:</strong> Monday to Friday: 8:30 AM to 5:30 PM | Saturday: 9:00 AM to 1:00 PM
+          </div>
+          <div style="font-size: 0.88rem; color: var(--navy-text-muted);">
+            <i class="fas fa-user-shield"></i> <strong>Librarian:</strong> Mr. D. Theepan Packia Raj, M.L.I.Sc., M.Phil.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Academic Calendar Section -->
+  <section class="section section-soft" id="calendar">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-calendar-alt"></i> Annual Schedule</span>
+        <h2 class="section-title">Academic Calendar 2025–2026</h2>
+        <p class="section-desc">Key institutional milestones, Continuous Internal Assessment (CIA) dates, and MSU university examination schedules.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+        <!-- Odd Semester -->
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); padding: 2rem; box-shadow: var(--shadow-sm);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+            <h3 style="font-size: 1.3rem; color: var(--navy-darkest);"><i class="fas fa-sun" style="color: var(--gold-primary);"></i> Odd Semester (Sem I, III, V)</h3>
+            <span class="meta-pill">Jun – Nov 2025</span>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div style="display: flex; justify-content: space-between; padding-bottom: 0.65rem; border-bottom: 1px dashed var(--navy-surface-border); font-size: 0.9rem;">
+              <span>College Reopens &amp; Classes Commence</span>
+              <strong style="color: var(--navy-primary);">June 18, 2025</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 0.65rem; border-bottom: 1px dashed var(--navy-surface-border); font-size: 0.9rem;">
+              <span>CIA Test I (Continuous Assessment)</span>
+              <strong style="color: var(--navy-primary);">August 11–18, 2025</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 0.65rem; border-bottom: 1px dashed var(--navy-surface-border); font-size: 0.9rem;">
+              <span>CIA Test II (Mid-Term)</span>
+              <strong style="color: var(--navy-primary);">September 22–29, 2025</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 0.65rem; border-bottom: 1px dashed var(--navy-surface-border); font-size: 0.9rem;">
+              <span>Model Practical &amp; Theory Exams</span>
+              <strong style="color: var(--navy-primary);">October 20–27, 2025</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 0.65rem; border-bottom: 1px dashed var(--navy-surface-border); font-size: 0.9rem;">
+              <span>MSU University Theory Examinations</span>
+              <strong style="color: var(--crimson-primary);">November 10, 2025</strong>
+            </div>
+          </div>
+        </div>
+
+        <!-- Even Semester -->
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); padding: 2rem; box-shadow: var(--shadow-sm);">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+            <h3 style="font-size: 1.3rem; color: var(--navy-darkest);"><i class="fas fa-snowflake" style="color: var(--navy-primary);"></i> Even Semester (Sem II, IV, VI)</h3>
+            <span class="meta-pill">Dec 2025 – May 2026</span>
+          </div>
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div style="display: flex; justify-content: space-between; padding-bottom: 0.65rem; border-bottom: 1px dashed var(--navy-surface-border); font-size: 0.9rem;">
+              <span>Even Semester Classes Begin</span>
+              <strong style="color: var(--navy-primary);">December 08, 2025</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 0.65rem; border-bottom: 1px dashed var(--navy-surface-border); font-size: 0.9rem;">
+              <span>CIA Test I (Continuous Assessment)</span>
+              <strong style="color: var(--navy-primary);">February 02–09, 2026</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 0.65rem; border-bottom: 1px dashed var(--navy-surface-border); font-size: 0.9rem;">
+              <span>College Annual Sports Meet</span>
+              <strong style="color: var(--navy-primary);">February 20, 2026</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 0.65rem; border-bottom: 1px dashed var(--navy-surface-border); font-size: 0.9rem;">
+              <span>College Day &amp; Graduation Day</span>
+              <strong style="color: var(--navy-primary);">March 27, 2026</strong>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 0.65rem; border-bottom: 1px dashed var(--navy-surface-border); font-size: 0.9rem;">
+              <span>MSU University Even Sem Exams</span>
+              <strong style="color: var(--crimson-primary);">April 20, 2026</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="downloads.html#calendar" class="btn btn-secondary">
+          <i class="fas fa-download"></i> Download Full Academic Calendar (PDF)
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Question Bank Repository -->
+  <section class="section" id="question-bank">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag"><i class="fas fa-folder-open"></i> Exam Preparation</span>
+        <h2 class="section-title">MSU CBCS Question Banks &amp; Model Papers</h2>
+        <p class="section-desc">Access categorized question banks, previous 5-year university exam question papers, and internal CIA model answer keys for all 7 undergraduate degree programmes.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 1.1rem; font-weight: 700; color: var(--navy-darkest); margin-bottom: 0.35rem;">B.Sc. Computer Science</div>
+          <p style="font-size: 0.85rem; color: var(--navy-text-muted); margin-bottom: 1rem;">Data Structures, Java, Python, Operating Systems, Web Tech.</p>
+          <a href="downloads.html#question-bank" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;"><i class="fas fa-file-pdf"></i> View QB Repository</a>
+        </div>
+
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 1.1rem; font-weight: 700; color: var(--navy-darkest); margin-bottom: 0.35rem;">B.Sc. Mathematics</div>
+          <p style="font-size: 0.85rem; color: var(--navy-text-muted); margin-bottom: 1rem;">Calculus, Differential Equations, Modern Algebra, Real Analysis.</p>
+          <a href="downloads.html#question-bank" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;"><i class="fas fa-file-pdf"></i> View QB Repository</a>
+        </div>
+
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 1.1rem; font-weight: 700; color: var(--navy-darkest); margin-bottom: 0.35rem;">B.Sc. Physics</div>
+          <p style="font-size: 0.85rem; color: var(--navy-text-muted); margin-bottom: 1rem;">Optics, Thermodynamics, Quantum Mechanics, Electronics.</p>
+          <a href="downloads.html#question-bank" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;"><i class="fas fa-file-pdf"></i> View QB Repository</a>
+        </div>
+
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 1.1rem; font-weight: 700; color: var(--navy-darkest); margin-bottom: 0.35rem;">B.Com (General)</div>
+          <p style="font-size: 0.85rem; color: var(--navy-text-muted); margin-bottom: 1rem;">Financial Accounting, Cost Accounting, Banking Theory, Income Tax.</p>
+          <a href="downloads.html#question-bank" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;"><i class="fas fa-file-pdf"></i> View QB Repository</a>
+        </div>
+
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 1.1rem; font-weight: 700; color: var(--navy-darkest); margin-bottom: 0.35rem;">B.Com Corporate Sec.</div>
+          <p style="font-size: 0.85rem; color: var(--navy-text-muted); margin-bottom: 1rem;">Company Law, Corporate Accounting, Secretarial Practice, Auditing.</p>
+          <a href="downloads.html#question-bank" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;"><i class="fas fa-file-pdf"></i> View QB Repository</a>
+        </div>
+
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-lg); padding: 1.5rem; box-shadow: var(--shadow-sm);">
+          <div style="font-size: 1.1rem; font-weight: 700; color: var(--navy-darkest); margin-bottom: 0.35rem;">B.A. English &amp; B.A. Tamil</div>
+          <p style="font-size: 0.85rem; color: var(--navy-text-muted); margin-bottom: 1rem;">Indian Writing, Shakespeare, Literary Criticism, தொல்காப்பியம், நன்னூல்.</p>
+          <a href="downloads.html#question-bank" class="btn btn-outline btn-sm" style="width: 100%; justify-content: center;"><i class="fas fa-file-pdf"></i> View QB Repository</a>
         </div>
       </div>
     </div>
   </section>
 
   <!-- Laboratories -->
-  <section class="section" id="laboratories">
+  <section class="section section-soft" id="laboratories">
     <div class="container">
       <div class="section-header">
         <span class="section-tag"><i class="fas fa-flask"></i> Hands-on Science</span>
@@ -367,41 +806,41 @@
       </div>
 
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 2rem;">
-        <div style="background: #ffffff; border: 1px solid var(--color-border); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-sm);">
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-sm);">
           <img src="assets/images/campus/facilities-1.jpg" alt="Computer Lab" style="width: 100%; height: 240px; object-fit: cover;">
           <div style="padding: 1.85rem;">
-            <h3 style="font-size: 1.3rem; margin-bottom: 0.65rem; color: var(--color-primary);">Computer Science Lab</h3>
-            <p style="color: var(--color-text-muted); line-height: 1.7; font-size: 0.92rem;">
+            <h3 style="font-size: 1.3rem; margin-bottom: 0.65rem; color: var(--navy-primary);">Computer Science Lab</h3>
+            <p style="color: var(--navy-text-muted); line-height: 1.7; font-size: 0.92rem;">
               Equipped with high-performance desktop terminals running Linux and Windows, Python compilers, Oracle/MySQL databases, and high-speed broadband connectivity for programming, web development, and digital literacy training.
             </p>
           </div>
         </div>
 
-        <div style="background: #ffffff; border: 1px solid var(--color-border); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-sm);">
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-sm);">
           <img src="assets/images/campus/facilities-3.jpg" alt="Physics Lab" style="width: 100%; height: 240px; object-fit: cover;">
           <div style="padding: 1.85rem;">
-            <h3 style="font-size: 1.3rem; margin-bottom: 0.65rem; color: var(--color-primary);">General Physics Lab</h3>
-            <p style="color: var(--color-text-muted); line-height: 1.7; font-size: 0.92rem;">
+            <h3 style="font-size: 1.3rem; margin-bottom: 0.65rem; color: var(--navy-primary);">General Physics Lab</h3>
+            <p style="color: var(--navy-text-muted); line-height: 1.7; font-size: 0.92rem;">
               Houses precision spectrometers, traveling microscopes, cathode ray oscilloscopes (CRO), thermal conductivity benches, and electronic breadboards giving physics scholars experimental clarity.
             </p>
           </div>
         </div>
 
-        <div style="background: #ffffff; border: 1px solid var(--color-border); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-sm);">
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-sm);">
           <img src="assets/images/campus/academic-wings.jpg" alt="Academic Lecture Halls" style="width: 100%; height: 240px; object-fit: cover;">
           <div style="padding: 1.85rem;">
-            <h3 style="font-size: 1.3rem; margin-bottom: 0.65rem; color: var(--color-primary);">Ventilated Lecture Halls</h3>
-            <p style="color: var(--color-text-muted); line-height: 1.7; font-size: 0.92rem;">
+            <h3 style="font-size: 1.3rem; margin-bottom: 0.65rem; color: var(--navy-primary);">Ventilated Lecture Halls</h3>
+            <p style="color: var(--navy-text-muted); line-height: 1.7; font-size: 0.92rem;">
               Two-story academic wings featuring spacious, sun-lit classrooms equipped with modern presentation aids, acoustic podiums, and comfortable seating overlooking the peaceful courtyard gardens.
             </p>
           </div>
         </div>
 
-        <div style="background: #ffffff; border: 1px solid var(--color-border); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-sm);">
+        <div style="background: #ffffff; border: 1px solid var(--navy-surface-border); border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-sm);">
           <img src="assets/images/campus/admin-foyer.jpg" alt="Administrative Corridor" style="width: 100%; height: 240px; object-fit: cover;">
           <div style="padding: 1.85rem;">
-            <h3 style="font-size: 1.3rem; margin-bottom: 0.65rem; color: var(--color-primary);">Administrative Foyer &amp; Office</h3>
-            <p style="color: var(--color-text-muted); line-height: 1.7; font-size: 0.92rem;">
+            <h3 style="font-size: 1.3rem; margin-bottom: 0.65rem; color: var(--navy-primary);">Administrative Foyer &amp; Office</h3>
+            <p style="color: var(--navy-text-muted); line-height: 1.7; font-size: 0.92rem;">
               Airy entrance breezeway housing the Student Affairs Counter, Principal’s Suite, examination coordination desk, and notice boards for daily announcements and institutional services.
             </p>
           </div>
@@ -424,14 +863,17 @@
           <ul class="footer-links">
             <li><a href="index.html" class="footer-link">Home</a></li>
             <li><a href="about.html" class="footer-link">About College</a></li>
-            <li><a href="academics.html" class="footer-link">Academics</a></li>
-            <li><a href="admissions.html" class="footer-link">Admissions</a></li>
+            <li><a href="academics.html" class="footer-link">Academics &amp; Courses</a></li>
+            <li><a href="placement.html" class="footer-link">Placement Cell</a></li>
+            <li><a href="naac.html" class="footer-link">NAAC (NAK)</a></li>
+            <li><a href="downloads.html" class="footer-link">Downloads Center</a></li>
           </ul>
         </div>
         <div class="footer-col">
           <h4 class="footer-col-title">Campus Contact</h4>
           <div class="footer-contact-item"><i class="fas fa-map-marker-alt"></i><div>JNP Nagar, Vaikalipatti, Mettur, Tenkasi - 627 808</div></div>
           <div class="footer-contact-item"><i class="fas fa-phone-alt"></i><div>+91 7305088202 / 05</div></div>
+          <div class="footer-contact-item"><i class="fas fa-envelope"></i><div>stjosephartscollege@gmail.com</div></div>
         </div>
         <div class="footer-col">
           <h4 class="footer-col-title">Admissions</h4>

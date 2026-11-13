@@ -2639,3 +2639,625 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0.5rem;
 }
 
+/* ==========================================================================
+   Downloads Center, Forms & Interactive Generators
+   ========================================================================== */
+.downloads-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 1.75rem;
+}
+
+.download-card {
+  background-color: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  padding: 1.85rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+  position: relative;
+  overflow: hidden;
+}
+
+.download-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: var(--navy-gradient);
+  transition: all var(--transition-fast);
+}
+
+.download-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--navy-light);
+}
+
+.download-card:hover::before {
+  background: var(--crimson-gradient);
+  height: 5px;
+}
+
+.download-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.download-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-md);
+  background: var(--navy-soft);
+  color: var(--navy-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  transition: all var(--transition-fast);
+}
+
+.download-card:hover .download-icon {
+  background: var(--crimson-soft);
+  color: var(--crimson-primary);
+}
+
+.download-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--navy-dark);
+  line-height: 1.3;
+}
+
+.download-badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: var(--radius-full);
+  margin-bottom: 0.75rem;
+  background-color: var(--bg-surface-soft);
+  color: var(--text-muted);
+}
+
+.download-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  flex: 1;
+}
+
+.download-actions {
+  display: flex;
+  gap: 0.65rem;
+  flex-wrap: wrap;
+}
+
+/* Printable Slip & Gate Pass Ticket Style */
+.printable-slip-box {
+  background-color: #ffffff;
+  border: 2px dashed var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+.slip-header {
+  text-align: center;
+  border-bottom: 2px solid var(--navy-primary);
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.slip-header h4 {
+  color: var(--navy-primary);
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.slip-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.slip-field {
+  background-color: var(--bg-surface-soft);
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+}
+
+.slip-field-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.slip-field-value {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--navy-dark);
+}
+
+.slip-sign-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-light);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-body);
+}
+
+/* ==========================================================================
+   NAAC Accreditation & Quality Criteria
+   ========================================================================== */
+.naac-criteria-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr));
+  gap: 1.75rem;
+}
+
+.naac-criteria-card {
+  background-color: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  transition: all var(--transition-normal);
+}
+
+.naac-criteria-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--gold-primary);
+}
+
+.criteria-number-badge {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  background: var(--gold-gradient);
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  box-shadow: 0 4px 12px rgba(217, 119, 6, 0.25);
+}
+
+.naac-doc-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.naac-doc-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.65rem 0.95rem;
+  background-color: var(--bg-surface-soft);
+  border-radius: var(--radius-sm);
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: var(--navy-dark);
+  transition: background-color var(--transition-fast);
+}
+
+.naac-doc-item:hover {
+  background-color: var(--navy-soft);
+  color: var(--navy-primary);
+}
+
+/* ==========================================================================
+   Student Achievements & Roll of Honor
+   ========================================================================== */
+.achievements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+  gap: 1.75rem;
+}
+
+.achievement-card {
+  background-color: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  padding: 2rem 1.75rem;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  transition: all var(--transition-normal);
+  position: relative;
+}
+
+.achievement-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--gold-primary);
+}
+
+.achievement-trophy-icon {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  background: var(--gold-gradient);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.85rem;
+  margin: 0 auto 1.25rem auto;
+  box-shadow: 0 6px 20px rgba(217, 119, 6, 0.35);
+}
+
+.achievement-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--navy-dark);
+  margin-bottom: 0.4rem;
+}
+
+.achievement-subtitle {
+  color: var(--crimson-primary);
+  font-weight: 700;
+  font-size: 0.88rem;
+  margin-bottom: 0.85rem;
+}
+
+.achievement-desc {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  flex: 1;
+}
+
+/* ==========================================================================
+   Media Coverage & Press Releases
+   ========================================================================== */
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+  gap: 1.75rem;
+}
+
+.media-card {
+  background-color: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+}
+
+.media-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--navy-light);
+}
+
+.media-body {
+  padding: 1.5rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.media-source-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--crimson-primary);
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.media-headline {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--navy-dark);
+  margin-bottom: 0.65rem;
+  line-height: 1.4;
+}
+
+/* ==========================================================================
+   Library Holdings & Catalogue Matrix
+   ========================================================================== */
+.library-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.library-stat-card {
+  background-color: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow-sm);
+  transition: transform var(--transition-fast);
+}
+
+.library-stat-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--navy-primary);
+}
+
+.library-stat-number {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--navy-primary);
+  font-family: var(--font-serif);
+  line-height: 1.1;
+  margin-bottom: 0.35rem;
+}
+
+.library-stat-label {
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+/* ==========================================================================
+   College Magazine & Literary Publications
+   ========================================================================== */
+.magazine-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+  gap: 2rem;
+}
+
+.magazine-card {
+  background-color: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-normal);
+  text-align: center;
+  padding: 1.75rem;
+}
+
+.magazine-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-xl);
+  border-color: var(--crimson-primary);
+}
+
+.magazine-cover-wrap {
+  width: 100%;
+  height: 260px;
+  background: var(--navy-gradient);
+  border-radius: var(--radius-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  padding: 1.5rem;
+  margin-bottom: 1.25rem;
+  position: relative;
+  box-shadow: var(--shadow-md);
+}
+
+.magazine-cover-wrap::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 12px;
+  width: 3px;
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.magazine-edition-title {
+  font-family: var(--font-serif);
+  font-size: 1.45rem;
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+/* -------------------------------------------------------------
+   Placement Cell, Recruiters & Training Modules
+------------------------------------------------------------- */
+.recruiters-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2rem;
+}
+
+.recruiter-card {
+  background: #ffffff;
+  border: 1px solid var(--navy-surface-border);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: all 0.28s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.recruiter-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--crimson-primary);
+  box-shadow: var(--shadow-md);
+}
+
+.recruiter-icon-wrap {
+  width: 58px;
+  height: 58px;
+  border-radius: var(--radius-full);
+  background: var(--navy-surface-soft);
+  color: var(--navy-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  margin-bottom: 0.85rem;
+}
+
+.recruiter-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--navy-darkest);
+  margin-bottom: 0.25rem;
+}
+
+.recruiter-sector {
+  font-size: 0.82rem;
+  color: var(--navy-text-muted);
+}
+
+.training-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.training-card {
+  background: #ffffff;
+  border: 1px solid var(--navy-surface-border);
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.28s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.training-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--crimson-gradient);
+}
+
+.training-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(153, 27, 27, 0.3);
+}
+
+.training-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-lg);
+  background: var(--navy-surface-soft);
+  color: var(--crimson-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.45rem;
+  margin-bottom: 1.25rem;
+}
+
+.training-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--navy-darkest);
+  margin-bottom: 0.65rem;
+}
+
+.training-desc {
+  font-size: 0.92rem;
+  color: var(--navy-text-muted);
+  line-height: 1.65;
+  margin-bottom: 1rem;
+}
+
+.training-topics {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.training-topics li {
+  font-size: 0.86rem;
+  color: var(--navy-text);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.training-topics li i {
+  color: var(--crimson-primary);
+  font-size: 0.75rem;
+}
+
+.process-timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.25rem;
+  margin-top: 2.25rem;
+  position: relative;
+}
+
+.process-step-card {
+  background: #ffffff;
+  border: 1px solid var(--navy-surface-border);
+  border-radius: var(--radius-xl);
+  padding: 1.75rem 1.5rem;
+  position: relative;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.28s ease;
+}
+
+.process-step-card:hover {
+  border-color: var(--gold-primary);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.process-step-num {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--radius-full);
+  background: var(--navy-darkest);
+  color: var(--gold-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+
